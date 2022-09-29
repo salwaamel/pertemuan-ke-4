@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 3</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        position: relative;
+      }
+      src :img {
+        width: 50px;
+        margin-right: 30px;
+      }
+
+      .cov-modal {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <img src="img/logo-pens.png" alt="" class="img-logo" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shortcodes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <div class="row d-flex">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="img/img.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3>Soul</h3>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Click Me
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="img/img-2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3>Bunga Sakera</h3>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal2"
+              >
+                Click Me
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="img/img-3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3>Kota Moncek</h3>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal3"
+              >
+                Click Me
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="img/img-4.jpg" class="card-img-top accordion" alt="..." />
+            <div class="card-body">
+              <h3>Apel</h3>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal4"
+              >
+                Click Me
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Latest Work -->
+    <div class="container-fluid py-5">
+      <h2 class="text-center mb-3 fw-bold">Our Latest Work</h2>
+      <div class="row row-cols-4 g-0">
+        <div class="col-3 g-0">
+          <img src="img/img.jpg" alt="" class="w-100" />
+        </div>
+        <div class="col-3 g-0">
+          <img src="img/img-2.jpg" alt="" class="w-100" />
+        </div>
+        <div class="col-3 g-0">
+          <img src="img/img-3.jpg" alt="" class="w-100" />
+        </div>
+        <div class="col-3 g-0">
+          <img src="img/img-4.jpg" alt="" class="w-100" />
+        </div>
+      </div>
+
+      <div class="row row-cols-4 w-100 mx-auto g-0">
+        <div class="col-3 g-0">
+          <img src="img/img.jpg" alt="" class="w-100" />
+        </div>
+        <div class="col-3 g-0">
+          <img src="img/img-2.jpg" alt="" class="w-100" />
+        </div>
+        <div class="col-3 g-0">
+          <img src="img/img-3.jpg" alt="" class="w-100" />
+        </div>
+        <div class="col-3 g-0">
+          <img src="img/img-4.jpg" alt="" class="w-100" />
+        </div>
+      </div>
+    </div>
+    <!-- Our Latest Work -->
+
+    <!-- modal1 -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">SHE / HER</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/img.jpg" class="card-img-top" alt="..." />
+            <h2 class="text-center my-3">SOUL</h2>
+            <p class="">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut iste
+              quo nisi harum dicta officia repellat error voluptatibus.
+              Perferendis eos sed magni ad non laudantium culpa ratione, nostrum
+              dolorem odio.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal1 -->
+
+    <!-- modal2 -->
+    <div
+      class="modal fade"
+      id="exampleModal2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Flower</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/img-2.jpg" class="card-img-top" alt="..." />
+            <h2 class="text-center my-3">Bunga Sakera</h2>
+            <p class="">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut iste
+              quo nisi harum dicta officia repellat error voluptatibus.
+              Perferendis eos sed magni ad non laudantium culpa ratione, nostrum
+              dolorem odio.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal2 -->
+
+    <!-- modal3 -->
+    <div
+      class="modal fade"
+      id="exampleModal3"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">City</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/img-3.jpg" class="card-img-top" alt="..." />
+            <h2 class="text-center my-3">Kota Moncek</h2>
+            <p class="">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut iste
+              quo nisi harum dicta officia repellat error voluptatibus.
+              Perferendis eos sed magni ad non laudantium culpa ratione, nostrum
+              dolorem odio.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal3 -->
+
+    <!-- modal4 -->
+    <div
+      class="modal fade"
+      id="exampleModal4"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Fruit</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/img-4.jpg" class="card-img-top" alt="..." />
+            <h2 class="text-center my-3">Apel</h2>
+            <p class="">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut iste
+              quo nisi harum dicta officia repellat error voluptatibus.
+              Perferendis eos sed magni ad non laudantium culpa ratione, nostrum
+              dolorem odio.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal4 -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const modal = document.querySelector(".cov-modal");
+      const btn1 = document.querySelector("#btn-1");
+      function modalFunction() {
+        modal.style.display = "block";
+      }
+    </script>
+  </body>
+</html>
